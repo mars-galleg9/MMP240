@@ -1,0 +1,36 @@
+body{
+    background-color: #494949;
+    margin: 0 auto;
+    width: 80%;
+    color: #000000;
+}
+
+h1{
+    background-color: darkcyan;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+aside{
+    background-color: darkcyan;
+    height:400px;
+    width: 29%;
+    margin-right: 1%;
+    float: left;
+}
+
+article{
+    background-color: darkcyan;
+    height: 400px;
+    width: 65%;
+    float: right;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: darkcyan;
+    height: 150px;
+    clear: both
+    
+}
