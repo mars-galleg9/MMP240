@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 body{
     background: url(mountains.jpg)no-repeat center center fixed;
     background-size: cover;
@@ -8,4 +11,35 @@ h1 {
     font-size: 95px;
     font-family: 'Righteous', cursive;
     color: #484D6D;
+    margin-left: 33%;
+}
+
+h2 {
+    font-family:'Oswald',sans-serif;
+    margin-left: 37%;
+}
+
+nav{
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    margin-top: 15px;
+}
+
+nav a{
+    display: inline-block;
+    padding: 12px;
+    background-color: #C5979D;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+nav a:hover{
+    background-color: #484D6D;
+    color: #C5979D;
 }
