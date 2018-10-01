@@ -1,0 +1,11 @@
+body{
+    background: url(mountains.jpg)no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+h1 {
+    font-size: 95px;
+    font-family: 'Righteous', cursive;
+    color: #484D6D;
+}
