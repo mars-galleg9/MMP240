@@ -1,0 +1,60 @@
+
+
+body{
+    background: url(deer.jpg)no-repeat center center fixed;
+    background-size: cover;
+    margin: 0 auto;
+    width: 70%;
+    
+}
+
+h1 {
+    font-size: 55px;
+    font-family: 'Righteous', cursive;
+    color: #DDDDDD;
+    margin-left: 20%;
+}
+
+h2 {
+	color: #001F3F;
+}
+
+article{
+    background-color: #DDDDDD;
+    border: solid 10px #484D6D;
+    height: 200px;
+    padding: 15px;
+    color: #001F3F;
+    margin-right:none;
+    margin-left: 40px;
+}
+
+h3{
+	font-size: 28px;
+	color: #39CCCC;
+}
+
+nav{
+    text-align:center;
+}
+nav ul{
+    list-style:none;
+}
+
+nav li{
+    margin-top: 25px;
+}
+
+nav a{
+    display:list-item;
+    padding: 12px;
+    background-color: #C5979D;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 35px; 
+}
+
+nav a:hover{
+    background-color: #484D6D;
+    color: #C5979D;
+}
