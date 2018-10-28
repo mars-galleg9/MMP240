@@ -3,7 +3,8 @@ body{
     margin: 0 auto;
     width: 70%;
     color: #000000;
-
+    background: url(arsenal.jpg)no-repeat center center fixed;
+    background-size: cover;
 }
 
 h1{
@@ -65,7 +66,7 @@ background-color: #001f3f;
     background-color: #fff;
     height:150px;
     padding: 5px;
-    margin-bottom: 12px;
+    margin-bottom: 22px;
     color: #001F3F;
 }
 
