@@ -1,0 +1,122 @@
+body{
+    background-color: #FF4136;
+    margin: 0 auto;
+    width: 70%;
+    color: #000000;
+
+}
+
+h1{
+    height: 30px;
+    font-size: 55px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    color: #001F3F;
+    margin-left: 30%;
+    font-family: 'Righteous', cursive;
+}
+
+.nav-container{ 	
+width:100%; 
+background-color: #808287;
+
+} 
+
+.nav-container ul{
+width:100%;
+margin: auto;
+padding:0; /*Ul would have default padding otherwise*/
+list-style-type: none; 
+font-size:21px;  
+font-family:"Gill Sans", Helvetica, Arial, sans-serif;
+}  
+
+.nav-container li{
+float: left; /*each seperate item tries to float left*/
+}  
+
+.nav-container a{ 
+display: block;  /*let’s us treat each link as a box, which can be sized and styled*/ 
+box-sizing: border-box; /*allows the "width" to include borders and padding*/
+width: 240px; 
+padding: 10px;
+text-decoration: none;  /*removes the default underline*/
+text-align: center; 
+background-color: #ffffff; /*colors the buttons initially*/
+color:#001f3f;
+} 
+
+.nav-container a:hover{ 
+background-color: #001f3f;
+    color: #ffffff; 
+}
+
+
+#h1-index{
+    height: 30px;
+    font-size: 55px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    color: #001F3F;
+    margin-left: 33%;
+}
+
+#aside-index {
+    background-color: #fff;
+    height:150px;
+    padding: 5px;
+    margin-bottom: 12px;
+    color: #001F3F;
+}
+
+#article-index {
+    background-color: #fff;
+    height: 350px;
+    padding: 5px;
+    margin-bottom: 50px;
+    color: #001F3F;
+}
+
+
+#aside-games{
+    background-color: #fff;
+    color: #001F3F;
+    padding: 5px;
+    height:300px;
+    width: 32%;
+    margin-right: 1%;
+    float: left;
+
+}
+
+#article-games{
+    background-color: #fff;
+    color: #001F3F;
+    padding: 5px;
+    height: 300px;
+    width: 63%;
+    float: right;
+    margin-bottom: 50px;
+}
+
+
+#aside-players{
+    background-color: tomato;
+    color: #fff;
+    height:200px;
+    width: 33%;
+    float: left;
+}
+
+#article-players{
+    background-color: #fff;
+    color: #FF4136;
+    height: 200px;
+    width: 33%;
+    float: left;
+}
+
+#section-players{
+    height: 800px;
+    margin-bottom: 50px;
+}
