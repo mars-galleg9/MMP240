@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FF4136;
+    margin: 0 auto;
+    width: 70%;
+    color: #000000;
+    background: url(images/wing.jpg)no-repeat center center fixed;
+    background-size: cover;
+}
+
+.homebackground{
+    height:150px;
+	width:100%;
+	background-color: #f4f1de;
+	color: #e20d3f;
+	padding-top:25px;
+	font-size:75px;
+	text-align: center;
+	margin-bottom:24px;
+	font-family: impact, monospace, Courier;
+    font-size: 100px;
+}
+
+
+
+#article-index{
+    font-size: 22px;
+    color: #e20d3f; 
+    margin-left: 35%;
+}
+
+
+.nav-container{ 	
+width:100%; 
+background-color: #f4f1de;
+
+} 
+
+.nav-container ul{
+width:100%;
+margin: auto;
+padding:0; /*Ul would have default padding otherwise*/
+list-style-type: none; 
+font-size:21px;  
+font-family:"Gill Sans", Helvetica, Arial, sans-serif;  
+}  
+
+.nav-container li{
+float: left;/*each seperate item tries to float left*/
+}  
+
+.nav-container a{ 
+display: block;  /*let’s us treat each link as a box, which can be sized and styled*/ 
+box-sizing: border-box; /*allows the "width" to include borders and padding*/
+width: 240px; 
+padding: 10px;
+text-decoration: none;  /*removes the default underline*/
+text-align: center; 
+background-color: #f4f1de; /*colors the buttons initially*/
+color:#e20d3f;
+border-radius: 30px;
+} 
+
+.nav-container a:hover{ 
+background-color: #e20d3f;
+    color: #f4f1de; 
+}
+
+
+
+
+
+       input[type=text], select {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #191d32;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+
+        input[type=submit] {
+          width: 100%;
+          background-color: #aa81ad;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+          background-color: #785964;
+        }
+
+        .search {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+
+.underline{
+    text-decoration: none;
+}
+
+
+.feed-info{
+    color: #f4f1de;
+    background-color: #e20d3f;
+    margin: 15px;
+    padding-left: 10px;
+    width: 100%;
+    border-radius: 15px;
+    height: 55px;
+    border-style: solid;
+ }
+
+
+
+h3{
+    font-size: 30px;
+    margin-left: 280px;
+    margin-top: 75px;
+    color: #e20d3f;
+}
+
+
+
+.nav-icons{ 	
+width:100%; 
+
+} 
+
+.nav-icons ul{
+width:100%;
+margin: auto;
+padding:0; /*Ul would have default padding otherwise*/
+list-style-type: none; 
+font-size:21px;  
+font-family:"Gill Sans", Helvetica, Arial, sans-serif;
+}  
+
+.nav-icons li{
+float: left; /*each seperate item tries to float left*/
+}  
+
+.nav-icons a{ 
+display: block;  /*let’s us treat each link as a box, which can be sized and styled*/ 
+box-sizing: border-box; /*allows the "width" to include borders and padding*/
+width: 250px;
+padding: 10px;
+text-decoration: none;  /*removes the default underline*/
+text-align: center; 
+background-color: #f4f1de; /*colors the buttons initially*/
+color:#e20d3f;
+border-radius: 30px;
+margin-bottom: 120px;
+} 
+
+.nav-icons a:hover{ 
+background-color: #e20d3f;
+    color: #f4f1de; 
+}
+
