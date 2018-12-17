@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Top 5</title>
+
+
+<style>
+
+*{
+    box-sizing: border-box;
+}    
+/*---------------------------------------------------------------------------------*/
+body{
+    background-color: #FF4136;
+    margin: 0 auto;
+    width: 70%;
+    color: #000000;
+    background: url(images/sky.jpg)no-repeat center center fixed;
+    background-size: cover;
+}
+
+/*---------------------------------------------------------------------------------*/
+.homebackground{
+    height:150px;
+  width:100%;
+  background-color: #f4f1de;
+  color: #e20d3f;
+  padding-top:25px;
+  font-size:75px;
+  text-align: center;
+  margin-bottom:24px;
+  font-family: impact, monospace, Courier;
+    font-size: 100px;
+}
+/*---------------------------------------------------------------------------------*/
+
+h1{
+    height: 30px;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    color: #e20d3f;
+    margin-left: 30%;
+    font-family: impact, monospace, Courier;
+}
+
+/*---------------------------------------------------------------------------------*/
+
+.nav-container{   
+width:100%; 
+background-color: #f4f1de;
+
+} 
+
+.nav-container ul{
+width:100%;
+margin: auto;
+padding:0; /*Ul would have default padding otherwise*/
+list-style-type: none; 
+font-size:21px;  
+font-family:"Gill Sans", Helvetica, Arial, sans-serif;  
+}  
+
+.nav-container li{
+float: left;/*each seperate item tries to float left*/
+}  
+
+.nav-container a{ 
+display: block;  /*let’s us treat each link as a box, which can be sized and styled*/ 
+box-sizing: border-box; /*allows the "width" to include borders and padding*/
+width: 240px; 
+padding: 10px;
+text-decoration: none;  /*removes the default underline*/
+text-align: center; 
+background-color: #f4f1de; /*colors the buttons initially*/
+color:#e20d3f;
+border-radius: 30px;
+} 
+
+.nav-container a:hover{ 
+    background-color: #e20d3f;
+    color: #f4f1de; 
+}
+
+/*---------------------------------------------------------------------------------*/
+
+/* dark purple: #785964
+    red: #e20d3f
+    cream white: #f4f1de
+    purple: #aa81ad*/
+
+#aside-players{
+    background-color: #f4f1de;
+    color: #e20d3f;
+    height:200px;
+    width: 33%;
+    float: left;
+    margin: 1px;
+    padding: 5px;
+    border-style: dashed;
+}
+
+#article-players{
+    background-color: #f4f1de;
+    color: #e20d3f;
+    height: 200px;
+    width: 33%;
+    float: left;
+    margin: 1px;
+    padding: 5px;
+    border-style: dashed;
+}
+
+#section-players{
+    height: 450px;
+}
+/*---------------------------------------------------------------------------------*/
+
+.underline{
+    text-decoration: none;
+}
+
+/*---------------------------------------------------------------------------------*/
+.feed-info{
+    color: #f4f1de;
+    background-color: #e20d3f;
+    margin: 15px;
+    padding-left: 15px;
+    width: 100%;
+    border-radius: 15px;
+    height: 52px;
+    border-style: solid;
+}
+
+/*---------------------------------------------------------------------------------*/
+
+h3{
+    font-size: 30px;
+    margin-left: 280px;
+    margin-top: 75px;
+    color: #e20d3f;
+}
+
+/*---------------------------------------------------------------------------------*/
+
+.nav-icons{   
+width:100%; 
+
+} 
+
+.nav-icons ul{
+width:100%;
+margin: auto;
+padding:0; /*Ul would have default padding otherwise*/
+list-style-type: none; 
+font-size:21px;  
+font-family:"Gill Sans", Helvetica, Arial, sans-serif;
+}  
+
+.nav-icons li{
+float: left; /*each seperate item tries to float left*/
+}  
+
+.nav-icons a{ 
+display: block;  /*let’s us treat each link as a box, which can be sized and styled*/ 
+box-sizing: border-box; /*allows the "width" to include borders and padding*/
+width: 250px;
+padding: 10px;
+text-decoration: none;  /*removes the default underline*/
+text-align: center; 
+background-color: #f4f1de; /*colors the buttons initially*/
+color:#e20d3f;
+border-radius: 30px;
+margin-bottom: 120px;
+} 
+
+.nav-icons a:hover{ 
+background-color: #e20d3f;
+    color: #f4f1de; 
+}
+/*---------------------------------------------------------------------------------*/
+
+</style>
+
+	</head>
+
+	<body>
+
+		<div class="homebackground">soar</div>
+        
+        <br>
+        
+        <div class="nav-container">
+                <ul>
+                    <li> <a href="top5.html">TOP 5</a> </li>
+            <li> <a href="index.html">Book</a> </li>
+                    <li> <a href="about.html">Membership</a> </li>
+                </ul>
+        </div>
+        
+        <br>
+		  
+<h1>Top 5 Locations</h1>
+
+<section id="section-players">
+    
+     <article id="article-players">
+
+        <h2> New York City </h2>
+
+        <p>Conquering New York in one visit is impossible. Instead, hit the must-sees – the Empire State Building, the Statue of Liberty, Central Park, the Metropolitan Museum of Art – and then explore off the beaten path. </p>
+        
+    </article>
+
+    <aside id="aside-players">
+          
+             <h2> Los Angeles </h2>
+
+        <p>Hollywood beckons to tourists who long for a brush with Tinseltown glamor. Tour movie studios, slip your hands into the famous prints at the TCL Chinese Theatre, or indulge in celeb sighting at a hot LA nightspot. </p>
+
+     </aside>
+
+    <article id="article-players">
+
+        <h2> Miami </h2>
+
+        <p>Miami is hot hot hot! And it’s not just the sultry weather. Here, the nightlife is scorching, thanks to a strong Latin influence and spicy salsa culture. Dance the noche away, or have a fancy meal at a celebrity-owned restaurant. </p>
+
+    </article>
+
+      <aside id="aside-players">
+
+          <h2> Chicago </h2>
+
+        <p>The windy city is a cornucopia of modern art, fine dining, cutting edge comedy, and die-hard sports fans. Snap a photo of your reflection in the silver Cloud Gate sculpture at Millennium Park.</p>
+
+      </aside>
+
+    <article id="article-players">
+
+        <h2> San Francisco </h2>
+
+        <p>Every neighborhood in San Fran has its own personality, from the hippie chic of the Upper Haight to the hipster grit of the Mission. The Marina boasts trendy bistros & postcard-perfect views of the Golden Gate Bridge.</p>
+
+    </article>
+
+
+    
+</section>
+
+    
+<a class="underline" href="http.google.com">     
+    <div class="feed-info">
+        <h2>feedback</h2>         
+    </div>
+</a>
+
+<a class="underline" href="http.google.com">
+    <div class="feed-info">
+        <h2>contact info</h2>
+    </div>
+</a>
+        
+        <h3>social media</h3>
+
+        <div class="nav-icons">
+                <ul>
+                  <li> <a href="fb.html">fb</a> </li>
+                   <li> <a href="insta.html">insta</a> </li>
+                    <li> <a href="twitter.html">twitter</a> </li>
+                </ul>
+        </div>
+
+
+	</body>
+
+</html>
