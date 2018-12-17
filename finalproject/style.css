@@ -27,14 +27,12 @@ body{
 
 
 #article-index{
-<<<<<<< HEAD
+
     font-size: 22px;
     color: #e20d3f; 
     margin-left: 35%;
-=======
     color: #e20d3f; 
     margin-left: 40%;
->>>>>>> 1f0fd01b81c6cf7cc06e35580e8c22812627ea9e
 }
 
 
@@ -115,7 +113,6 @@ background-color: #e20d3f;
 
 
 .feed-info{
-<<<<<<< HEAD
     color: #f4f1de;
     background-color: #e20d3f;
     margin: 15px;
@@ -125,30 +122,15 @@ background-color: #e20d3f;
     height: 55px;
     border-style: solid;
  }
-=======
-    color: #e20d3f;
-    background-color: #f4f1de;
-    margin: 5px;
-    padding-left: 10px;
-    width: 100%;
-    border-radius: 15px;
-    height: 40px;
-}
->>>>>>> 1f0fd01b81c6cf7cc06e35580e8c22812627ea9e
+
 
 
 
 h3{
-<<<<<<< HEAD
     font-size: 30px;
     margin-left: 280px;
     margin-top: 75px;
     color: #e20d3f;
-=======
-    margin-left: 35px;
-    margin-top: 75px;
-    color: #191d32;
->>>>>>> 1f0fd01b81c6cf7cc06e35580e8c22812627ea9e
 }
 
 
@@ -181,10 +163,7 @@ text-align: center;
 background-color: #f4f1de; /*colors the buttons initially*/
 color:#e20d3f;
 border-radius: 30px;
-<<<<<<< HEAD
 margin-bottom: 120px;
-=======
->>>>>>> 1f0fd01b81c6cf7cc06e35580e8c22812627ea9e
 } 
 
 .nav-icons a:hover{ 
